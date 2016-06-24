@@ -4,4 +4,4 @@ var addition = function() {
   return sum;
 };
 
-module.exports = addition;
+module.exports = addition.js;

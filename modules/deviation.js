@@ -1,7 +1,7 @@
-var addition = require( 'addition' );
-var subtraction = require( 'subtraction' );
-var multiplication = require( 'multiplication' );
-var division = require( 'division' );
+var addition = require( './addition.js' );
+var subtraction = require( './subtraction.js' );
+var multiplication = require( './multiplication.js' );
+var division = require( './division.js' );
 
 var deviation = function( data ) {
   if( data.method == addition ) {
@@ -16,6 +16,6 @@ var deviation = function( data ) {
     return 'ERROR: No method specified';
   }
 };
-};
+
 
 module.exports = deviation.js;

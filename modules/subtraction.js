@@ -4,4 +4,4 @@ var subtraction = function() {
   return difference;
 };
 
-module.exports = subtraction;
+module.exports = subtraction.js;

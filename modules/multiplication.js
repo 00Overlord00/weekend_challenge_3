@@ -4,4 +4,4 @@ var multiplication = function() {
   return product;
 };
 
-module.exports = multiplication;
+module.exports = multiplication.js;
